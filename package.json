@@ -1,18 +1,27 @@
 {
   "name": "graphql-peliculas",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfgalarza5/graphql-peliculas.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfgalarza5/graphql-peliculas/issues"
+  },
+  "homepage": "https://github.com/jfgalarza5/graphql-peliculas#readme",
   "dependencies": {
     "express": "^5.2.1",
     "express-graphql": "^0.12.0",
-    "graphql": "^16.14.2",
+    "graphql": "^15.10.2",
     "sequelize": "^6.37.8",
     "sqlite3": "^6.0.1"
   }
